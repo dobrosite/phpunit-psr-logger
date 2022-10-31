@@ -17,8 +17,8 @@
 ```yaml
 services:
 
-  Psr\Log\LoggerInterface:
-    class: DobroSite\PHPUnit\PSR1\TestLogger
+  logger:
+    class: DobroSite\PHPUnit\PSR3\TestLogger
     public: true
 ```
 
