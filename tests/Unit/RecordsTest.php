@@ -5,14 +5,11 @@ declare(strict_types=1);
 namespace Tests\Unit;
 
 use DobroSite\PHPUnit\PSR3\Records;
+use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\ExpectationFailedException;
 use PHPUnit\Framework\TestCase;
 
-/**
- * Тесты {@see Records}.
- *
- * @covers \DobroSite\PHPUnit\PSR3\Records
- */
+#[CoversClass(Records::class)]
 final class RecordsTest extends TestCase
 {
     private Records $records;

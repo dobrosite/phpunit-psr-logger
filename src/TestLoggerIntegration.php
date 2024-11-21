@@ -7,7 +7,7 @@ namespace DobroSite\PHPUnit\PSR3;
 /**
  * Интеграция {@see TestLogger} в тесты PHPUnit
  *
- * @since x.x
+ * @since 1.0
  */
 trait TestLoggerIntegration
 {
