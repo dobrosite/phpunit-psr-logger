@@ -8,7 +8,7 @@ use PHPUnit\Framework\Assert;
 use PHPUnit\Framework\Constraint\Constraint;
 use PHPUnit\Framework\Exception;
 use PHPUnit\Framework\ExpectationFailedException;
-use SebastianBergmann\RecursionContext\InvalidArgumentException;
+use PHPUnit\Framework\InvalidArgumentException;
 
 final class Records implements \ArrayAccess, \Countable
 {
