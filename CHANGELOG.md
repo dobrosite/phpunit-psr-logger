@@ -4,4 +4,13 @@
 [Keep a Changelog](https://keepachangelog.com/ru/1.0.0/). Проект использует
 [семантическое версионирование](http://semver.org/spec/v2.0.0.html).
 
-## Не выпущено
+## Новое
+
+### Добавлено
+
+- Классы:
+  - `TestLogger`
+  - `Logger`
+- Примеси:
+  - `TestLoggerIntegration`
+  - `TestLoggerForSymfony`
