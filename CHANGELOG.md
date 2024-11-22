@@ -12,7 +12,7 @@
 
 - Классы:
   - `TestLogger`
-  - `Logger`
+  - `Records`
 - Примеси:
   - `TestLoggerIntegration`
   - `TestLoggerForSymfony`
